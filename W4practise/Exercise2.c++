@@ -13,6 +13,7 @@ int main() {
     // TODO: modify *p and reprint
     // modify *p
     *p = 100;
+    cout << "Modified values:";
     cout << "x = " << x << '\n';
     cout << "&x = " << &x << '\n';
     cout << "p = " << p << '\n';
